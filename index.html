@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>ShopEase App</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo"><a href="#">Shop<span class="ease">Ease</span></a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="action_btn">Get Started</a>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="dropdown_menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="action_btn">Get Started</a></li>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Banner -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="bannerText1">
+            <h1>Welcome to our ShopEase App</h1>
+            <p>Discover Endless Possibilities with Our Exclusive Collection</p>
+            <p>Transform Your Shopping Experience with Our Wide Range of Products</p>
+          </div>
+          <div class="bannerImg1">
+            <img src="./New folder/slider-img-1.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="bannerText1">
+            <h1>Welcome to our ShopEase App</h1>
+            <p>Discover Endless Possibilities with Our Exclusive Collection</p>
+            <p>Transform Your Shopping Experience with Our Wide Range of Products</p>
+          </div>
+          <div class="bannerImg1">
+            <img src="./New folder/slider-img-2.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="bannerText1">
+            <h1>Welcome to our ShopEase App</h1>
+            <p>Discover Endless Possibilities with Our Exclusive Collection</p>
+            <p>Transform Your Shopping Experience with Our Wide Range of Products</p>
+          </div>
+          <div class="bannerImg1">
+            <img src="./New folder/slider-img-3.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Trending Products -->
+    <section>
+      <div class="treandingHeader">
+        <h1 class="trend">Trending Products</h1>
+        <div class="price_options">
+          <small class="dollar">Dollar</small>
+          <input type="checkbox" id="checkbox">
+          <label for="checkbox" class="label">
+            <div class="selected"></div>
+          </label>
+          <small class="taka">Taka</small>
+        </div>
+      </div>
+    </section>
+    <section class="container2">
+      <div class="card">
+        <img src="./New folder/product-2.png" alt="">
+        <span class="discount">-25%</span>
+        <div class="panel">
+          <span><a href="#" class="fas fa-heart"></a></span>
+          <span><a href="#" class="fas fa-cart-shopping"></a></span>
+          <span> <a href="#" class="fas fa-eye"></a></span>
+        </div>
+        <a href="#"><button>Add To Cart</button></a>
+        <div class="info">
+          <h3>Apple Earbuds</h3>
+          <div class="price_box">
+            <div class="price_card center_cost" id="price_card">
+              <h3>
+                <span class="price selected_price"><a href="#" class="fas fa-dollar-sign dollar"> </a>9</span>
+                <span class="price"><a href="#" class="fas fa-bangladeshi-taka-sign taka"> </a>950</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="star">
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star-half-stroke"></a></span>
+        </div>
+      </div>
+      </div>
+      <div class="card">
+        <img src="./New folder/product-1.png" alt="">
+        <div class="panel">
+          <span><a href="#" class="fas fa-heart"></a></span>
+          <span><a href="#" class="fas fa-cart-shopping"></a></span>
+          <span> <a href="#" class="fas fa-eye"></a></span>
+        </div>
+        <a href="#"><button>Add To Cart</button></a>
+        <div class="info">
+          <h3>Playstation 4 2TB</h3>
+          <div class="price_box">
+            <div class="price_card center_cost" id="price_card">
+              <h3>
+                <span class="price selected_price"><a href="#" class="fas fa-dollar-sign dollar"> </a>15</span>
+                <span class="price"><a href="#" class="fas fa-bangladeshi-taka-sign taka"> </a>1620</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="star">
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star-half-stroke"></a></span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./New folder/product-3.png" alt="">
+        <span class="discount">-30%</span>
+        <div class="panel">
+          <span><a href="#" class="fas fa-heart"></a></span>
+          <span><a href="#" class="fas fa-cart-shopping"></a></span>
+          <span> <a href="#" class="fas fa-eye"></a></span>
+        </div>
+        <a href="#"><button>Add To Cart</button></a>
+        <div class="info">
+          <h3>Galaxy Watch S6</h3>
+
+          <div class="price_box">
+            <div class="price_card center_cost" id="price_card">
+              <h3>
+                <span class="price selected_price"><a href="#" class="fas fa-dollar-sign dollar"> </a>12</span>
+                <span class="price"><a href="#" class="fas fa-bangladeshi-taka-sign taka"> </a>1280</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="star">
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star-half-stroke"></a></span>
+        </div>
+      </div>
+      </div>
+      <div class="card">
+        <img src="./New folder/product-4.png" alt="">
+
+        <div class="panel">
+          <span><a href="#" class="fas fa-heart"></a></span>
+          <span><a href="#" class="fas fa-cart-shopping"></a></span>
+          <span> <a href="#" class="fas fa-eye"></a></span>
+        </div>
+        <a href="#"><button>Add To Cart</button></a>
+        <div class="info">
+          <h3>Mini Portable PowerBank</h3>
+
+          <div class="price_box">
+            <div class="price_card center_cost" id="price_card">
+              <h3>
+                <span class="price selected_price"><a href="#" class="fas fa-dollar-sign dollar"> </a>19</span>
+                <span class="price"><a href="#" class="fas fa-bangladeshi-taka-sign taka"> </a>2045</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="star">
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star-half-stroke"></a></span>
+        </div>
+      </div>
+      </div>
+      <div class="card">
+        <img src="./New folder/product-5.png" alt="">
+
+        <div class="panel">
+          <span><a href="#" class="fas fa-heart"></a></span>
+          <span><a href="#" class="fas fa-cart-shopping"></a></span>
+          <span> <a href="#" class="fas fa-eye"></a></span>
+        </div>
+        <a href="#"><button>Add To Cart</button></a>
+        <div class="info">
+          <h3>Gaming Console</h3>
+
+          <div class="price_box">
+            <div class="price_card center_cost" id="price_card">
+              <h3>
+                <span class="price selected_price"><a href="#" class="fas fa-dollar-sign dollar"> </a>25</span>
+                <span class="price"><a href="#" class="fas fa-bangladeshi-taka-sign taka"> </a>2635</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="star">
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star-half-stroke"></a></span>
+        </div>
+      </div>
+      </div>
+      <div class="card">
+        <img src="./New folder/product-6.png" alt="">
+        <span class="discount">-20%</span>
+        <div class="panel">
+          <span><a href="#" class="fas fa-heart"></a></span>
+          <span><a href="#" class="fas fa-cart-shopping"></a></span>
+          <span> <a href="#" class="fas fa-eye"></a></span>
+
+        </div>
+        <a href="#"><button>Add To Cart</button></a>
+        <div class="info">
+          <h3>Portable PowerBank</h3>
+
+          <div class="price_box">
+            <div class="price_card center_cost" id="price_card">
+              <h3>
+                <span class="price selected_price"><a href="#" class="fas fa-dollar-sign dollar"> </a>32</span>
+                <span class="price"><a href="#" class="fas fa-bangladeshi-taka-sign taka"> </a>3310</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="star">
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star-half-stroke"></a></span>
+        </div>
+      </div>
+      </div>
+      <div class="card">
+        <img src="./New folder/product-7.png" alt="">
+
+        <div class="panel">
+          <span><a href="#" class="fas fa-heart"></a></span>
+          <span><a href="#" class="fas fa-cart-shopping"></a></span>
+          <span> <a href="#" class="fas fa-eye"></a></span>
+        </div>
+        <a href="#"><button>Add To Cart</button></a>
+        <div class="info">
+          <h3>Wireless Headphone</h3>
+
+          <div class="price_box">
+            <div class="price_card center_cost" id="price_card">
+              <h3>
+                <span class="price selected_price"><a href="#" class="fas fa-dollar-sign dollar"> </a>17</span>
+                <span class="price"><a href="#" class="fas fa-bangladeshi-taka-sign taka"> </a>1870</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="star">
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star-half-stroke"></a></span>
+        </div>
+      </div>
+      </div>
+      <div class="card">
+        <img src="./New folder/product-8.png" alt="">
+        <span class="discount">-15%</span>
+        <div class="panel">
+          <span><a href="#" class="fas fa-heart"></a></span>
+          <span><a href="#" class="fas fa-cart-shopping"></a></span>
+          <span> <a href="#" class="fas fa-eye"></a></span>
+        </div>
+        <a href="#"><button>Add To Cart</button></a>
+        <div class="info">
+          <h3>Galaxy Tab S6 Lite</h3>
+          <div class="price_box">
+            <div class="price_card center_cost" id="price_card">
+              <h3>
+                <span class="price selected_price"><a href="#" class="fas fa-dollar-sign dollar"> </a>40</span>
+                <span class="price"><a href="#" class="fas fa-bangladeshi-taka-sign taka"> </a>4100</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="star">
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star"></a></span>
+          <span><a href="#" class="fas fa-star-half-stroke"></a></span>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--Samsung Video -->
+    <section class="video-section">
+      <div class="video-container">
+        <video src="./New folder/samsung.webm" autoplay muted loop></video>
+        <div class="text-overlay">
+          <h2>Galaxy S3 Ultra</h2>
+          <p>The headliner of the S series. Specifications are top-notch including 6.8-inch Dynamic AMOLED display with
+            120Hz</p>
+          <button class="video-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deal Of the Day -->
+    <section class="deal">
+      <div class="dealHeaderAndTimer">
+        <div class="dealHeader">
+          <h1>Deal of The Day</h1>
+          <h4>
+            Hurry up! Offer ends in
+          </h4>
+        </div>
+        <div class="containerOfTimer">
+          <div class="container-segment">
+           
+            <div class="segment">
+              <div class="flip-card" data-hours-tens>
+                <div class="topTimer">2</div>
+                <div class="bottomTimer">2</div>
+              </div>
+              <div class="flip-card" data-hours-ones>
+                <div class="topTimer">4</div>
+                <div class="bottomTimer">4</div>
+              </div>
+            </div>
+          </div>
+          <div class="container-segment">
+          
+            <div class="segment">
+              <div class="flip-card" data-minutes-tens>
+                <div class="topTimer">0</div>
+                <div class="bottomTimer">0</div>
+              </div>
+              <div class="flip-card" data-minutes-ones>
+                <div class="topTimer">0</div>
+                <div class="bottomTimer">0</div>
+              </div>
+            </div>
+          </div>
+          <div class="container-segment">
+           
+            <div class="segment">
+              <div class="flip-card" data-seconds-tens>
+                <div class="topTimer">0</div>
+                <div class="bottomTimer">0</div>
+              </div>
+              <div class="flip-card" data-seconds-ones>
+                <div class="topTimer">2</div>
+                <div class="bottomTimer">0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dealContainer">
+        <div class="dealCard">
+          <img src="./New folder/deal-1.webp" alt="">
+          <div class="panel">
+            <span><a href="#" class="fas fa-heart"></a></span>
+            <span><a href="#" class="fas fa-cart-shopping"></a></span>
+            <span> <a href="#" class="fas fa-eye"></a></span>
+          </div>
+          <a href="#"><button>Add To Cart</button></a>
+          <div>
+            <div class="dealLine"></div>
+            <h4>HeadPhone</h4>
+            <h3>Galaxy Tab S6 Lite</h3>
+            <div class="dealStar">
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+            </div>
+            <p class="newPrice"><span></span><span class="oldPrice">$200</span> $120</p>
+          </div>
+
+        </div>
+        <div class="dealCard">
+          <img src="./New folder/deal-2.webp" alt="">
+          <div class="panel">
+            <span><a href="#" class="fas fa-heart"></a></span>
+            <span><a href="#" class="fas fa-cart-shopping"></a></span>
+            <span> <a href="#" class="fas fa-eye"></a></span>
+          </div>
+          <a href="#"><button>Add To Cart</button></a>
+          <div>
+            <div class="dealLine"></div>
+            <h4>Laptop</h4>
+            <h3>Asus VivoBook S510</h3>
+            <div class="dealStar">
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+            </div>
+            <p class="newPrice"><span></span><span class="oldPrice">$500.00</span> $460.00</p>
+          </div>
+        </div>
+        <div class="dealCard">
+          <img src="./New folder/deal-3.webp" alt="">
+          <div class="panel">
+            <span><a href="#" class="fas fa-heart"></a></span>
+            <span><a href="#" class="fas fa-cart-shopping"></a></span>
+            <span> <a href="#" class="fas fa-eye"></a></span>
+          </div>
+          <a href="#"><button>Add To Cart</button></a>
+          <div>
+            <div class="dealLine"></div>
+            <h4>Camera</h4>
+            <h3>
+              Sony H300 Camera with Optical Zoom</h3>
+            <div class="dealStar">
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+              <span><a href="#" class="fas fa-star"></a></span>
+            </div>
+            <p class="newPrice"><span></span><span class="oldPrice">$340.00</span> $290.00</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section>
+    <!-- Team -->
+    <section id="team" class="team section-padding">
+      <header class="section-header">
+        <h3>Who we are</h3>
+        <h2>Our Professional Team</h2>
+      </header>
+      <div class="flex-items">
+        <div>
+          <img src="New folder/team/person1.jpg" alt=" ">
+          <h4>John Doe</h4>
+          <p>President</p>
+        </div>
+        <div>
+          <img src="New folder/team/women.jpg" alt=" ">
+          <h4>Kim Sabar</h4>
+          <p>Vice President</p>
+        </div>
+        <div>
+          <img src="New folder/team/team2.jpg" alt=" ">
+          <h4>Steven Smith</h4>
+          <p>Marketing Head</p>
+        </div>
+        <div>
+          <img src="New folder/team/team-4.jpg" alt=" ">
+          <h4>Steven Smith</h4>
+          <p>Operation Head</p>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="content">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="containerOfContact">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><i class="fa fa-location-dot"></i></div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>Jigatola Road,<br>Dhanmondi 9/A,Dhaka ,<br>Bangladesh</p>
+            </div>
+
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-phone"></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+8801799199335</p>
+            </div>
+
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-envelope"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>hadiuzzaman527@gmail.com</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="contactForm">
+          <h2>Send Message</h2>
+          <div class="inputBox">
+            <input type="text" id="fullName" name="" required="required">
+            <span>Full Name</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" id="email_id" name="" required="required">
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" id="message" name="" required="required">
+            <span>Type Your Message...</span>
+          </div>
+          <div class="inputBox" onclick="SendMail()">
+            <input type="submit" name="" value="Send">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+
+    </section>
+
+
+  </main>
+  <footer class="footer">
+    <div class="footerContainer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our service</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">mobile</a></li>
+            <li><a href="#">laptop</a></li>
+            <li><a href="#">headphone</a></li>
+            <li><a href="#">watch</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="logo"><h2>Shop<span class="ease">Ease</span></h2></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-pay">
+      <div>
+        <p>&copy;2023 All Rights Reserved by ShopEase </p>
+      </div>
+      <div>
+        <img src="/New folder/footer.webp" alt="" />
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+
+    //navbar
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+    toggleBtn.onclick = function () {
+      dropDownMenu.classList.toggle('open');
+      const isOpen = dropDownMenu.classList.contains('open')
+      toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+      console.log("button Clicked");
+    }
+
+    //banner carousel
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    // pricing
+    const checkbox = document.querySelector('#checkbox');
+    const label = document.querySelector('.label');
+    checkbox.addEventListener('change', showPlan);
+
+    function showPlan() {
+      label.classList.toggle('active');
+      checkbox.classList.toggle('active');
+      displayPrice();
+    }
+
+    function displayPrice() {
+      const prices = document.querySelectorAll('.price');
+      prices.forEach(item => {
+        item.classList.toggle('selected_price');
+      })
+    }
+
+
+    //First Timer
+    var timers = [
+      { id: 1, time: 24 * 60 * 60 },
+      { id: 2, time: 12 * 60 * 60 },
+      { id: 3, time: 6 * 60 * 60 }
+    ];
+    var timerIntervals = {};
+
+    function formatTime(timeInSeconds) {
+      var hours = Math.floor(timeInSeconds / 3600);
+      var minutes = Math.floor((timeInSeconds % 3600) / 60);
+      var seconds = timeInSeconds % 60;
+
+      return {
+        hours: String(hours).padStart(2, "0"),
+        minutes: String(minutes).padStart(2, "0"),
+        seconds: String(seconds).padStart(2, "0")
+      };
+    }
+
+    function updateTimerValue(timerId) {
+      var time = formatTime(timers[timerId - 1].time);
+      document.getElementById("hours-" + timerId).textContent = time.hours;
+      document.getElementById("minutes-" + timerId).textContent = time.minutes;
+      document.getElementById("seconds-" + timerId).textContent = time.seconds;
+    }
+
+    function startTimer(timerId) {
+      timerIntervals[timerId] = setInterval(function () {
+        timers[timerId - 1].time--;
+        updateTimerValue(timerId);
+
+        if (timers[timerId - 1].time <= 0) {
+          stopTimer(timerId);
+
+        }
+      }, 1000);
+    }
+
+    function stopTimer(timerId) {
+      clearInterval(timerIntervals[timerId]);
+    }
+
+    timers.forEach(function (timer) {
+      startTimer(timer.id);
+    });
+
+    //New Timer
+    const countToDate = new Date().setHours(new Date().getHours() + 24)
+    let previousTimeBetweenDates
+    setInterval(() => {
+      const currentDate = new Date()
+      const timeBetweenDates = Math.ceil((countToDate - currentDate) / 1000)
+      flipAllCards(timeBetweenDates)
+
+      previousTimeBetweenDates = timeBetweenDates
+    }, 250)
+
+    function flipAllCards(time) {
+      const seconds = time % 60
+      const minutes = Math.floor(time / 60) % 60
+      const hours = Math.floor(time / 3600)
+
+      flip(document.querySelector("[data-hours-tens]"), Math.floor(hours / 10))
+      flip(document.querySelector("[data-hours-ones]"), hours % 10)
+      flip(document.querySelector("[data-minutes-tens]"), Math.floor(minutes / 10))
+      flip(document.querySelector("[data-minutes-ones]"), minutes % 10)
+      flip(document.querySelector("[data-seconds-tens]"), Math.floor(seconds / 10))
+      flip(document.querySelector("[data-seconds-ones]"), seconds % 10)
+    }
+
+    function flip(flipCard, newNumber) {
+      const topHalf = flipCard.querySelector(".topTimer")
+      const startNumber = parseInt(topHalf.textContent)
+      if (newNumber === startNumber) return
+
+      const bottomHalf = flipCard.querySelector(".bottomTimer")
+      const topFlip = document.createElement("div")
+      topFlip.classList.add("top-flip")
+      const bottomFlip = document.createElement("div")
+      bottomFlip.classList.add("bottom-flip")
+
+      top.textContent = startNumber
+      bottomHalf.textContent = startNumber
+      topFlip.textContent = startNumber
+      bottomFlip.textContent = newNumber
+
+      topFlip.addEventListener("animationstart", e => {
+        topHalf.textContent = newNumber
+      })
+      topFlip.addEventListener("animationend", e => {
+        topFlip.remove()
+      })
+      bottomFlip.addEventListener("animationend", e => {
+        bottomHalf.textContent = newNumber
+        bottomFlip.remove()
+      })
+      flipCard.append(topFlip, bottomFlip)
+    }
+
+
+    //Send Mail
+    function SendMail() {
+      var params = {
+        from_name: document.getElementById("fullName").value,
+        user_email: document.getElementById("email_id").value,
+        message: document.getElementById("message").value
+      }
+      emailjs.send('service_8z4pcsd', 'template_r2gt5au', params).then(function (res) {
+        alert("success !" + res.status);
+      })
+    }
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("HXuH_qiTtr_OhbDRV");
+    })();
+  </script>
+
+
+</body>
+
+</html>
